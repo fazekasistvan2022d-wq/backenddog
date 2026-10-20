@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 const PORT = process.env.PORT;
 
-app.get("/api/termekek", async (req, res) => {
+app.get("/api/konyvek", async (req, res) => {
     try {
         const [rows] = await pool.query("SELECT * FROM termekek");
         res.status(200).json(rows);

@@ -1,0 +1,2 @@
+írtam jelszót, különben nem enged be az adatbázisba
+Tudom, hogy a feladat lap azt írta, hogy nem kell jelszó, de én inkább beleírtam
